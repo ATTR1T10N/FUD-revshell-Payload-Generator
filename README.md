@@ -22,7 +22,13 @@ La herramienta está desarrollada en Python 3 y requiere las siguientes dependen
 - `colorama` para los colores de la interfaz en la línea de comandos
 - `netcat` para escuchar conexiones de red en la máquina atacante
 
-Instala las dependencias ejecutando:
+Instalación:
 
 ```bash
 pip install colorama
+git clone https://github.com/ccyl13/Payload-Generator.git
+cd Payload-Generator
+chmod +x payload_generator.py
+pip install -r requirements.txt
+python3 payload_generator.py
+
