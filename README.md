@@ -1,28 +1,28 @@
 # Payload-Generator
 
-Payload-Generator es una herramienta de generación de payloads de red y escucha de conexiones en sistemas remotos. Desarrollada para ambientes de pruebas de penetración, permite crear y ejecutar payloads desde una máquina atacante hacia una máquina víctima usando PowerShell.
+Payload-Generator is a tool for generating network payloads and listening to connections on remote systems. Developed for penetration testing environments, it allows creating and executing payloads from an attacker machine to a victim machine using PowerShell.
 
-## Características
+## Features
 
-- Generación de payloads personalizados
-- Escucha de conexiones en tiempo real
-- Interfaz de comandos intuitiva
-- Ejecución automatizada de `netcat` para escuchar conexiones
+- Customized payload generation
+- Real-time connection listening
+- Intuitive command-line interface
+- Automated execution of `netcat` to listen for connections
 
-## Capturas de Pantalla
+## Screenshots
 
 **Payload Generator**
 
 ![Inicio de Payload-Generator](https://github.com/ccyl13/Payload-Generator/blob/main/Payload%20Generator.png?raw=true)
 
 
-## Dependencias
+## Dependencies
 
-La herramienta está desarrollada en Python 3 y requiere las siguientes dependencias:
-- `colorama` para los colores de la interfaz en la línea de comandos
-- `netcat` para escuchar conexiones de red en la máquina atacante
+The tool is developed in Python 3 and requires the following dependencies:
+- `colorama` for command-line interface colors
+- `netcat` to listen for network connections on the attacker machine
 
-Instalación:
+Installation:
 
 ```bash
 pip install colorama
