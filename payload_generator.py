@@ -77,20 +77,20 @@ def main():
         print("[3] Advanced Configurations (in development)")
         print("[4] Exit")
 
-    choice = input("\nSelect an option: ")
+        choice = input("\nSelect an option: ")
 
-    if choice == '1':
-        ip = input("Enter the attacker's machine IP (Kali): ")
-        port = input("Enter the port the attacker's machine will listen on: ")
-        generate_payload(ip, port)
-    elif choice == '2':
-        port = input("Enter the port for the listener: ")
-        start_listener_in_new_terminal(port)
-    elif choice == '4':
-        print("Exiting...")
-        sys.exit()
-    else:
-        print("Invalid option, please try again.")
+        if choice == '1':
+            ip = input("Enter the attacker's machine IP (Kali): ")
+            port = input("Enter the port the attacker's machine will listen on: ")
+            generate_payload(ip, port)
+        elif choice == '2':
+            port = input("Enter the port for the listener: ")
+            start_listener_in_new_terminal(port)
+        elif choice == '4':
+            print("Exiting...")
+            sys.exit()
+        else:
+            print("Invalid option, please try again.")
 
 if __name__ == "__main__":
     main()
