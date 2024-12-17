@@ -25,10 +25,9 @@ The tool is developed in Python 3 and requires the following dependencies:
 Installation:
 
 ```bash
-pip install colorama
+pip3 install colorama
 git clone https://github.com/ATTR1T10N/FUD-revshell-Payload-Generator.git
 cd Payload-Generator
 chmod +x payload_generator.py
-pip install -r requirements.txt
 python3 payload_generator.py
 
