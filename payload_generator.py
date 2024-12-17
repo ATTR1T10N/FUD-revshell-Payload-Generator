@@ -72,10 +72,10 @@ def main():
     display_banner()
 
     while True:
-    print("\n[1] Generate Payload")
-    print("[2] Start Listener in New Terminal")
-    print("[3] Advanced Configurations (in development)")
-    print("[4] Exit")
+        print("\n[1] Generate Payload")
+        print("[2] Start Listener in New Terminal")
+        print("[3] Advanced Configurations (in development)")
+        print("[4] Exit")
 
     choice = input("\nSelect an option: ")
 
