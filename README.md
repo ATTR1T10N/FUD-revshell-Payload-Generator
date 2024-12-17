@@ -27,7 +27,7 @@ Installation:
 ```bash
 pip3 install colorama
 git clone https://github.com/ATTR1T10N/FUD-revshell-Payload-Generator.git
-cd Payload-Generator
+cd FUD-revshell-Payload-Generator
 chmod +x payload_generator.py
 python3 payload_generator.py
 
